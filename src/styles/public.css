@@ -1,7 +1,7 @@
 /*
  * Created: 2020-04-27 09:00:51
  * Author : 黄雪梅
- * Last Modified: 2020-04-27 09:01:00
+ * Last Modified: 2020-04-29 16:52:00
  * Modified By: 黄雪梅
  * Copyright (c) 2019. 深圳奥雅纳智能科技有限公司. All Rights Reserved.
  */
@@ -45,11 +45,11 @@
   }
 
   .acs{
-    align-content: stretch; 
-    -ms-content-items: stretch;
-    -moz-content-items: stretch;
-    -webkit-content-items: stretch;
-    -o-content-items: stretch;
+    align-content: flex-end; 
+    -ms-content-items: flex-end;
+    -moz-content-items: flex-end;
+    -webkit-content-items: flex-end;
+    -o-content-items: flex-end;
   }
 
   .as{

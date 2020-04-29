@@ -1,9 +1,11 @@
 import React from 'react';
-import Header from './components/Header'
+import Header from './components/Header/Header'
+import Sidebar from './components/Sidebar/Sidebar'
 
 function App() {
   return (
-    <div className="App">
+    <div className="df jfs App">
+      <Sidebar></Sidebar>
       <Header></Header>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

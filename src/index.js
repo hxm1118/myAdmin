@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom';
 import './styles/public.css';
 import './styles/reset.css';
 import 'antd/dist/antd.css';
+import './styles/common.css'
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+    <App />,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 

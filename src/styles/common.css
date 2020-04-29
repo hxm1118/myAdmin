@@ -1,11 +1,14 @@
 /*
- * Created: 2020-04-29 14:53:17
+ * Created: 2020-04-29 16:27:30
  * Author : 黄雪梅
- * Last Modified: 2020-04-29 14:54:55
+ * Last Modified: 2020-04-29 16:54:59
  * Modified By: 黄雪梅
  * Copyright (c) 2019. 深圳奥雅纳智能科技有限公司. All Rights Reserved.
  */
 
-.sidebar-title{
-    background: #001529;
+#root{
+    height:100%;
+}
+.App{
+    height:100%;
 }

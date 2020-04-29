@@ -1,0 +1,24 @@
+/*
+ * Created: 2020-04-29 14:53:17
+ * Author : 黄雪梅
+ * Last Modified: 2020-04-29 16:56:40
+ * Modified By: 黄雪梅
+ * Copyright (c) 2019. 深圳奥雅纳智能科技有限公司. All Rights Reserved.
+ */
+.sidebar{
+    background:#001529;
+    .sidebar-title{
+        padding:20px;    
+        background: #001529;
+        // border-bottom:1px solid #f1f1f1;
+        img{
+            width:35px;
+        }
+        h1{
+            margin-left:20px;
+            margin-bottom:0;
+            font-size:20px;
+            color:#fff;        
+        }    
+    }
+}

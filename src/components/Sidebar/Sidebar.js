@@ -1,14 +1,15 @@
 /*
  * Created: 2020-04-29 12:07:01
  * Author : 黄雪梅
- * Last Modified: 2020-04-29 15:01:48
+ * Last Modified: 2020-04-29 16:46:08
  * Modified By: 黄雪梅
  * Copyright (c) 2019. 深圳奥雅纳智能科技有限公司. All Rights Reserved.
  */
 
 import React, { Component } from 'react';
 import { Menu, Button } from 'antd';
-import './Header.less'
+import './Sidebar.scss'
+
 import {
   AppstoreOutlined,
   MenuUnfoldOutlined,
@@ -34,12 +35,13 @@ export default class Header extends React.Component {
 
   render() {
     return (
-      <div style={{ width: 256 }}>
+      <div style={{ width: 256 }} className="sidebar">
         {/* <Button type="primary" onClick={this.toggleCollapsed} style={{ marginBottom: 16 }}>
           {React.createElement(this.state.collapsed ? MenuUnfoldOutlined : MenuFoldOutlined)}
         </Button> */}
-        <div className="sidebar-title">
-          Ant Design Pro
+        <div className="df ac sidebar-title">
+          <img src={require("./../../images/logo.png")} />
+          <h1>后台管理系统</h1>
         </div>
         <Menu
           defaultSelectedKeys={['1']}
@@ -48,7 +50,7 @@ export default class Header extends React.Component {
           theme="dark"
           inlineCollapsed={this.state.collapsed}
         >
-          {/* <Menu.Item key="1">
+          <Menu.Item key="1">
             <PieChartOutlined />
             <span>Option 1</span>
           </Menu.Item>
@@ -59,7 +61,19 @@ export default class Header extends React.Component {
           <Menu.Item key="3">
             <ContainerOutlined />
             <span>Option 3</span>
-          </Menu.Item> */}
+          </Menu.Item>
+          <Menu.Item key="4">
+            <PieChartOutlined />
+            <span>Option 4</span>
+          </Menu.Item>
+          <Menu.Item key="5">
+            <DesktopOutlined />
+            <span>Option 5</span>
+          </Menu.Item>
+          <Menu.Item key="6">
+            <ContainerOutlined />
+            <span>Option 6</span>
+          </Menu.Item>
           <SubMenu
             key="sub1"
             title={
